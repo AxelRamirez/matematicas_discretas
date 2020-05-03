@@ -1,6 +1,9 @@
 <?php $this->load->view('navbar');?>
 <main>
-    <div class="p-3">
+    <div clas="w-100">
+        <img class="w-100 bannerIMG" src="<?= base_url()?>assets/images/conjuntos/banner.png" alt="Insituto Tecnologico de Tijuana">
+    </div>
+    <div class="p-3 mt-2">
         <div class="row">
             <div class="col-lg-6 text-center">
                 <img src="<?= base_url()?>assets/images/logo_tecnm.png" style="height: 130px;" alt="">
@@ -8,13 +11,14 @@
             <div class="col-lg-6 text-center">
                 <img src="<?= base_url()?>assets/images/logo_itt.png" style="height: 130px;" alt="">
             </div>
-            <div class="col-lg-12 text-center py-4">
-                <h1>2.3 DIAGRAMAS DE VENN</h1>
+        </div>
+        <div class="container">
+            <div class="section-title">
+                <h2>2.3 DIAGRAMAS DE VENN</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h3>2.3 DIAGRAMAS DE VENN </h3>
                 <p>Los diagramas de Venn son la representación gráfica de las relaciones entre los conjuntos, estos se atribuyen al filósofo inglés John Venn (1834-1883).</p>
                 <p>La manera de representar el conjunto Universal es un rectángulo y lo denotamos por la letra U.</p>
                 <img src="<?= base_url()?>assets/images/conjuntos/diagramas_1.png" alt="">

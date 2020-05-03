@@ -1,6 +1,9 @@
 <?php $this->load->view('navbar');?>
 <main>
-    <div class="p-3">
+    <div clas="w-100">
+        <img class="w-100 bannerIMG" src="<?= base_url()?>assets/images/numeracion/banner.jpg" alt="Insituto Tecnologico de Tijuana">
+    </div>
+    <div class="p-3 mt-2">
         <div class="row">
             <div class="col-lg-6 text-center">
                 <img src="<?= base_url()?>assets/images/logo_tecnm.png" style="height: 130px;" alt="">
@@ -8,13 +11,14 @@
             <div class="col-lg-6 text-center">
                 <img src="<?= base_url()?>assets/images/logo_itt.png" style="height: 130px;" alt="">
             </div>
-            <div class="col-lg-12 text-center py-4">
-                <h1>1.2 SISTEMA DE NUMERACIÓN BINARIA</h1>
+        </div>
+        <div class="container">
+            <div class="section-title">
+                <h2>1.2 SISTEMA DE NUMERACIÓN BINARIA</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h3>1.2 SISTEMA DE NUMERACIÓN BINARIA</h3>
                 <p>Este sistema de base 2 es el más sencillo de todos por poseer sólo dos dígitos, fue introducido por Leibniz en el Siglo XVII, es el sistema que internamente utilizan los circuitos digitales que configuran el hardware de las computadoras actuales. </p>
                 <p>Los dos dígitos, llamados bits (Contracción de binary digit), son el uno (1) y el cero (0), por lo cual el equivalente decimal se obtendrá al sumar los pesos correspondientes a los bits 1. </p>
                 <p>En bit más significativo (MSB) es aquel que se ubica más a la izquierda (el que tiene mayor valor). El bit menos significativo (LSB) es aquel que está más a la derecha y que tiene el menor valor. </p>

@@ -1,6 +1,9 @@
 <?php $this->load->view('navbar');?>
 <main>
-    <div class="p-3">
+    <div clas="w-100">
+        <img class="w-100 bannerIMG" src="<?= base_url()?>assets/images/numeracion/banner.jpg" alt="Insituto Tecnologico de Tijuana">
+    </div>
+    <div class="p-3 mt-2">
         <div class="row">
             <div class="col-lg-6 text-center">
                 <img src="<?= base_url()?>assets/images/logo_tecnm.png" style="height: 130px;" alt="">
@@ -8,13 +11,14 @@
             <div class="col-lg-6 text-center">
                 <img src="<?= base_url()?>assets/images/logo_itt.png" style="height: 130px;" alt="">
             </div>
-            <div class="col-lg-12 text-center py-4">
-                <h1>1.5 REPRESENTACIÓN DE CANTIDADES </h1>
+        </div>
+        <div class="container">
+            <div class="section-title">
+                <h2>1.5 REPRESENTACIÓN DE CANTIDADES</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <h3>1.5 REPRESENTACIÓN DE CANTIDADES </h3>
                 <p>En los sistemas digitales, la información que se está procesando, por lo general, se presenta en forma binaria. Desafortunadamente, el sistema numérico decimal no se presta para una implantación conveniente en sistemas digitales. Por ejemplo, resulta muy difícil diseñar equipo electrónico para que pueda funcionar con 10 diferentes niveles de voltaje (para que cada uno representara un carácter decimal, de 0 a 9). Por Otro lado, es muy fácil diseñar circuitos electrónicos precisos pero simples que operen con sólo dos niveles de voltaje. Por esta razón, casi todos los sistemas digitales utilizan el sistema numérico binario (base 2) como base de sus operaciones, aunque con frecuencia se emplean otros sistemas junto con el binario. </p>
                 <p>En el sistema binario solamente hay dos símbolos o posibles valores de dígitos, el 0 y el 1. No obstante, este sistema de base 2 se puede utilizar para representar cualquier cantidad que se denote en sistema decimal o algún otro sistema numérico. </p>
                 <p>En general, se necesitarán muchos dígitos binarios para expresar una cantidad determinada. Este es un sistema de valor posicional, en donde cada dígito binario tiene su valor propio expresado como potencia de 2. En el sistema binario, el término dígito binario se abrevia a menudo como bit. El bit más significativo (MSB) es aquel que se ubica más a la izquierda (el que tiene el mayor valor). El bit menos significativo (LSB) es aquel que está más a la derecha y que tiene el menor valor. </p>
