@@ -11,3 +11,12 @@ main{
     object-fit: cover;
     object-position: unset;
 }
+.optionCalculator{
+    width: calc((100% / 4) - 5px);
+}
+#in{
+    background: #b5d4bf;
+    border: 2px solid #8eb79b;
+    font-weight: bold;
+    font-size: 1.4em;
+}

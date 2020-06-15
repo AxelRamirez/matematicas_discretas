@@ -26,4 +26,7 @@ class Circuitos extends MY_Controller {
 	public function tablas(){
 		$this->load->view('circuitos/tablas',$this->data);
 	}
+	public function herramienta(){
+		$this->load->view('circuitos/herramienta',$this->data);
+	}
 }

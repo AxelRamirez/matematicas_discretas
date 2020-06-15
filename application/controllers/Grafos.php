@@ -20,4 +20,7 @@ class Grafos extends MY_Controller {
 	public function representacion(){
 		$this->load->view('grafos/representacion',$this->data);
 	}
+	public function herramienta(){
+		$this->load->view('grafos/herramienta',$this->data);
+	}
 }

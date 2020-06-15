@@ -23,4 +23,7 @@ class Logica extends MY_Controller {
 	public function predicados(){
 		$this->load->view('logica/predicados',$this->data);
 	}
+	public function calculadora(){
+		$this->load->view('logica/herramienta',$this->data);
+	}
 }

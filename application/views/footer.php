@@ -34,8 +34,8 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url()?>Numeracion/convertidor">Convertidor de sistemas de numeración</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url()?>Conjuntos/simulador">Simulador de Conjuntos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Generador de Tablas de Verdad</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Grafos</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url()?>Logica/calculadora">Generador de Tablas de Verdad</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url()?>Grafos/herramienta">Grafos</a></li>
             </ul>
           </div>
         </div>

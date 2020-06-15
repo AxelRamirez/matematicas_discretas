@@ -40,6 +40,7 @@
                             </div>
                         </form>
                     </div>
+                    <a href="<?=base_url()?>" class="text-muted">Ir a página principal</a>
                 </div>
             </div>
         </div>

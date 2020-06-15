@@ -1,0 +1,48 @@
+﻿.control {
+	border-radius: 0.2em;
+	border-width:0.1em;
+	cursor: pointer;
+	border-style:solid;
+	color: #FFF;
+	text-align: center;
+}
+.control:active{
+	box-shadow:inset 0.05em 0.1em 0.1em #333;
+}
+#inText {
+	width: 60%;
+	padding:0.2em;
+	font-size:1.2em;
+}
+#graphs a{
+	display:inline-block;
+	margin:0.12em;
+	padding:0.5em 0.7em;
+	text-decoration: none;
+	font-weight: bold;
+	color: #656565;
+}
+#graphs a:hover{
+	background-color: #e7e7e7;
+	border-radius: 0.6em;
+}
+#embed{
+	display:none;
+}
+.sidebar {
+	position:absolute;
+	z-index:1;
+	margin:1em;
+	right:0px;
+	width:15em;
+}
+.checkers {
+	margin: 0.5em auto;
+	cursor: pointer;
+	padding: 0.2em;
+	background-color:#EEE;
+	border-radius: 0.4em;
+	text-align:left;
+	width:8em;
+	line-height:1.6;
+}
