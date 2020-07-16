@@ -12,9 +12,6 @@
 
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Matemáticas Discretas</h3>
-            <p>Calzada del Tecnológico s/n, Tomas Aquino, 22414 Tijuana, B.C.<br><br>
-              <strong>Teléfono:</strong> +52 664 607 8400<br>
-            </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">

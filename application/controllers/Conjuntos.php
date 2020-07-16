@@ -9,6 +9,10 @@ class Conjuntos extends MY_Controller {
 		redirect('conjuntos/view','refresh');
 	}
 	public function view(){
+		$this->load->model('Files_model');
+		$this->data['files'] = array();
+		$this->data['files'] = $this->Files_model->getWhere(array('UNIT' => 2));
+
 		$this->load->view('conjuntos/index',$this->data);
 	}
 	public function subconjuntos(){

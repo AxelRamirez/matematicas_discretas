@@ -9,6 +9,10 @@ class Arboles extends MY_Controller {
 		redirect('arboles/view','refresh');
 	}
 	public function view(){
+		$this->load->model('Files_model');
+		$this->data['files'] = array();
+		$this->data['files'] = $this->Files_model->getWhere(array('UNIT' => 6));
+
 		$this->load->view('arboles/index',$this->data);
 	}
 	public function componentes(){

@@ -122,7 +122,7 @@ class MY_Controller extends CI_Controller{
         //decodifica el base 64
         $file = base64_decode($b64);
         //guarda el archivo con el nombre y en la direccion correcta
-        if($type == 'png' || $type == 'jpg'|| $type == 'jpeg'|| $type == 'gif'|| $type == 'doc'|| $type == 'ppt'|| $type == 'xsl'|| $type == 'docx'|| $type == 'pptx'|| $type == 'xslx'|| $type == 'pdf'){	
+        if($type == 'png' || $type == 'jpg'|| $type == 'jpeg'|| $type == 'gif'|| $type == 'doc'|| $type == 'ppt'|| $type == 'xls' || $type == 'csv' || $type == 'docx'|| $type == 'pptx'|| $type == 'xslx'|| $type == 'pdf'){	
         	file_put_contents($path.$newName, $file);
         	//retorna el nuevo nombre con extencion
         	return $newName;

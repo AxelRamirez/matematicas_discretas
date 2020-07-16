@@ -89,6 +89,7 @@
       </nav><!-- .nav-menu -->
       <?php if($this->session->userdata('logged_in')){ ?>
         <a href="<?= base_url()?>User/logout" class="get-started-btn scrollto">Logout</a>
+        <a href="<?= base_url()?>User" class="px-2">Usuarios</a>
       <?php }else{?>
         <a href="<?= base_url()?>Login" class="get-started-btn scrollto">Admnistrador</a>
       <?php }?>

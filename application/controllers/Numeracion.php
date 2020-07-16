@@ -9,7 +9,11 @@ class Numeracion extends MY_Controller {
 		redirect('numeracion/view','refresh');
 	}
 	public function view(){
-		$this->load->view('numeracion/index');
+		$this->load->model('Files_model');
+		$this->data['files'] = array();
+		$this->data['files'] = $this->Files_model->getWhere(array('UNIT' => 1));
+
+		$this->load->view('numeracion/index', $this->data);
 	}
 	public function decimal(){
 		$this->load->view('numeracion/decimal');

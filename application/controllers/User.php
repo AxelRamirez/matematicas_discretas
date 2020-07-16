@@ -43,9 +43,9 @@ class User extends MY_Controller {
  			$input = $this->input->post(NULL, TRUE);
  			//se prepara el "query" para insertar datos
  			if(isset($input['Password']) && strlen($input['Password']) > 3){
- 			 	$insert = array('USR_LOGIN' => $input['Login'],'USR_PASSWORD' => md5($input['Password']),'USR_ROL_ID' => $input['Role'],'USR_FIRST_NAME' => $input['NameF'],'USR_LAST_NAME' => $input['NameL']);
+ 			 	$insert = array('username' => $input['Login'],'password' => md5($input['Password']),'rol_id' => $input['Role'],'first_name' => $input['NameF'],'last_name' => $input['NameL']);
  			 }else{
- 			 	$insert = array('USR_LOGIN' => $input['Login'],'USR_ROL_ID' => $input['Role'],'USR_FIRST_NAME' => $input['NameF'],'USR_LAST_NAME' => $input['NameL']);
+ 			 	$insert = array('username' => $input['Login'],'rol_id' => $input['Role'],'first_name' => $input['NameF'],'last_name' => $input['NameL']);
  			 }
  			//inserta y verifica que se haya realizado el insert
  			if($this->User_model->save($insert) != 0){	
@@ -67,9 +67,9 @@ class User extends MY_Controller {
  			//se prepara el "query" para insertar datos
  			$id = $this->uri->segment(3);
  			if (isset($input['Password']) && strlen($input['Password']) > 3) {
- 				$insert = array('USR_LOGIN' => $input['Login'],'USR_PASSWORD' => md5($input['Password']),'USR_ROL_ID' => $input['Role'],'USR_FIRST_NAME' => $input['NameF'],'USR_LAST_NAME' => $input['NameL']);
+ 				$insert = array('username' => $input['Login'],'password' => md5($input['Password']),'rol_id' => $input['Role'],'first_name' => $input['NameF'],'last_name' => $input['NameL']);
  			}else{
- 				$insert = array('USR_LOGIN' => $input['Login'],'USR_ROL_ID' => $input['Role'],'USR_FIRST_NAME' => $input['NameF'],'USR_LAST_NAME' => $input['NameL']);
+ 				$insert = array('username' => $input['Login'],'rol_id' => $input['Role'],'first_name' => $input['NameF'],'last_name' => $input['NameL']);
  			}
  			//inserta y verifica que se haya realizado el insert
  			if($this->User_model->save($insert,$id) != 0){	

@@ -9,6 +9,10 @@ class Logica extends MY_Controller {
 		redirect('logica/view','refresh');
 	}
 	public function view(){
+		$this->load->model('Files_model');
+		$this->data['files'] = array();
+		$this->data['files'] = $this->Files_model->getWhere(array('UNIT' => 3));
+
 		$this->load->view('logica/index',$this->data);
 	}
 	public function tablas(){

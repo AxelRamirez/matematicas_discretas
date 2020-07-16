@@ -4,14 +4,6 @@
         <img class="w-100 bannerIMG" src="<?= base_url()?>assets/images/logica/banner.jpg" alt="Insituto Tecnologico de Tijuana">
     </div>
     <div class="p-3 mt-2">
-        <div class="row">
-            <div class="col-lg-6 text-center">
-                <img src="<?= base_url()?>assets/images/logo_tecnm.png" style="height: 130px;" alt="">
-            </div>
-            <div class="col-lg-6 text-center">
-                <img src="<?= base_url()?>assets/images/logo_itt.png" style="height: 130px;" alt="">
-            </div>
-        </div>
         <div class="container">
             <div class="section-title">
                 <h2>6.5 RECORRIDO DE UN ÁRBOL</h2>
